@@ -413,3 +413,5 @@ const projects = [
 ];
 
 export { services, technologies, experiences, projects };
+
+// hi normal comment for git
