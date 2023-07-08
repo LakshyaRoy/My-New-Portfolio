@@ -39,7 +39,7 @@ import MNTN from "./mntn.png";
 import QuincilWebsite from "./quincil.png";
 import NASA from "./nasaApi.png";
 import FreshCart from "./FreshCart.png";
-
+import Paper from "./paper.jpeg";
 export {
   logo,
   backend,
@@ -79,4 +79,5 @@ export {
   QuincilWebsite,
   NASA,
   FreshCart,
+  Paper,
 };

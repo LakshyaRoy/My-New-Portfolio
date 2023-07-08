@@ -14,11 +14,12 @@ import {
   Omnifood,
   Quiz,
   PWebsite,
-  JokeTeller,
+  // JokeTeller,
   NASA,
   MNTN,
   QuincilWebsite,
   FreshCart,
+  Paper,
 } from "../assets";
 
 import Bootstrap from "../assets/tech/bootstrap.png";
@@ -241,15 +242,15 @@ const projects = [
     website_link: "https://putatoe-one-solution.netlify.app/",
   },
   {
-    name: "Joke Teller ",
-    description: `This web application is designed to entertain users by telling jokes. It leverages the JokeAPI to retrieve jokes and utilizes the ResponsiveVoice.js library to audibly speak them to the users.`,
+    name: "Paper Portfolio",
+    description: `This is a retro-style paper portfolio website inspired by Niccolo Miranda's original website. The project aims to recreate the design and layout of the original website for learning purposes.`,
     tags: [
       {
         name: "ResponsiveVoice.js",
         color: "blue-text-gradient",
       },
       {
-        name: "JokeAPI",
+        name: "GSAP.js:",
         color: "green-text-gradient",
       },
       {
@@ -265,10 +266,39 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: JokeTeller,
-    source_code_link: "https://github.com/LakshyaRoy/joke-teller",
-    website_link: "https://lakshyaroy.github.io/joke-teller/",
+    image: Paper,
+    source_code_link: "https://github.com/LakshyaRoy/Paper_portfolio",
+    website_link: "https://lakshyaroy.github.io/Paper_portfolio/",
   },
+  // {
+  //   name: "Joke Teller ",
+  //   description: `This web application is designed to entertain users by telling jokes. It leverages the JokeAPI to retrieve jokes and utilizes the ResponsiveVoice.js library to audibly speak them to the users.`,
+  //   tags: [
+  //     {
+  //       name: "ResponsiveVoice.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JokeAPI",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "HTML5",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS3",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: JokeTeller,
+  //   source_code_link: "https://github.com/LakshyaRoy/joke-teller",
+  //   website_link: "https://lakshyaroy.github.io/joke-teller/",
+  // },
   {
     name: "NASA API  ",
     description: `This web application utilizes the NASA API to fetch and display various images and information related to space and astronomy,Users can explore celestial bodies, galaxies, and more.`,
