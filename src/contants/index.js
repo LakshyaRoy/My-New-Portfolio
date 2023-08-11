@@ -20,6 +20,7 @@ import {
   QuincilWebsite,
   FreshCart,
   Paper,
+  CryptBlaze,
 } from "../assets";
 
 import Bootstrap from "../assets/tech/bootstrap.png";
@@ -141,6 +142,40 @@ const experiences = [
 
 const projects = [
   {
+    name: "CryptBlaze",
+    description:
+      "This Our website uses Rapid API for live cryptocurrency info. It's easy to use, shows many digital coins, and helps people make smart choices.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "chart.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "antd",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react-redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CryptBlaze,
+    source_code_link: "https://github.com/LakshyaRoy/Crypto-Sites",
+    website_link: "https://cryptblaze.netlify.app/",
+  },
+  {
     name: "TV Show Booking Website",
     description:
       "This repository contains the source code and assets for a React-based Single Page Application (SPA) that allows users to select TV shows, view detailed information about them, and book movie tickets.",
@@ -178,11 +213,11 @@ const projects = [
     tags: [
       {
         name: "HTML5",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "CSS3",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "JavaScript",
@@ -199,11 +234,11 @@ const projects = [
     tags: [
       {
         name: "HTML5",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "CSS3",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "JavaScript",
@@ -309,7 +344,7 @@ const projects = [
       },
       {
         name: "HTML5",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "CSS3",
@@ -339,7 +374,7 @@ const projects = [
 
       {
         name: "HTML5",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "CSS3",
@@ -384,32 +419,32 @@ const projects = [
     source_code_link: "https://github.com/LakshyaRoy/Quencil-test-project-",
     website_link: "https://quincil-demo-site.netlify.app/",
   },
-  {
-    name: "Fresh Cart website ",
-    description: `This repository contains a clone of the Fresh Cart website's home page using Bootstrap framework.
-    The cloned website can be accessed , It replicates the design and layout of the original Fresh Cart home page.`,
-    tags: [
-      {
-        name: "Responsive Design",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "green-text-gradient",
-      },
-      {
-        name: "HTML5",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "CSS3",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: FreshCart,
-    source_code_link: "https://github.com/LakshyaRoy/fresh-cart-bootstrap",
-    website_link: "https://freshcartclone-bootstrap.netlify.app/",
-  },
+  // {
+  //   name: "Fresh Cart website ",
+  //   description: `This repository contains a clone of the Fresh Cart website's home page using Bootstrap framework.
+  //   The cloned website can be accessed , It replicates the design and layout of the original Fresh Cart home page.`,
+  //   tags: [
+  //     {
+  //       name: "Responsive Design",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Bootstrap",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "HTML5",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS3",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: FreshCart,
+  //   source_code_link: "https://github.com/LakshyaRoy/fresh-cart-bootstrap",
+  //   website_link: "https://freshcartclone-bootstrap.netlify.app/",
+  // },
 ];
 
 export { services, technologies, experiences, projects };

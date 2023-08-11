@@ -40,6 +40,7 @@ import QuincilWebsite from "./quincil.png";
 import NASA from "./nasaApi.png";
 import FreshCart from "./FreshCart.png";
 import Paper from "./paper.jpeg";
+import CryptBlaze from "./CryptBlaze.png";
 export {
   logo,
   backend,
@@ -80,4 +81,5 @@ export {
   NASA,
   FreshCart,
   Paper,
+  CryptBlaze,
 };
