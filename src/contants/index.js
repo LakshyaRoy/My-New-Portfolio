@@ -21,6 +21,10 @@ import {
   FreshCart,
   Paper,
   CryptBlaze,
+  Disney,
+  ReactQuiz,
+  QuillBot,
+  TwoGood,
 } from "../assets";
 
 import Bootstrap from "../assets/tech/bootstrap.png";
@@ -142,6 +146,40 @@ const experiences = [
 
 const projects = [
   {
+    name: "Disney+ Hotstar Clone",
+    description:
+      "This repository, created by Lakshya Roy, is a web application that mimics the features of the well-known streaming platform, Disney+ Hotstar.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TMDB API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AntD",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Styled Components",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Disney,
+    source_code_link: "https://github.com/LakshyaRoy/DisneyPlus-Clone",
+    website_link: "https://showtimeflicks.netlify.app/",
+  },
+  {
     name: "CryptBlaze",
     description:
       "This Our website uses Rapid API for live cryptocurrency info. It's easy to use, shows many digital coins, and helps people make smart choices.",
@@ -174,6 +212,40 @@ const projects = [
     image: CryptBlaze,
     source_code_link: "https://github.com/LakshyaRoy/Crypto-Sites",
     website_link: "https://cryptblaze.netlify.app/",
+  },
+  {
+    name: "QuillBot Clone",
+    description:
+      "This is a dynamic website that is a clone of QuillBot Research Field. The website is built using React and Vite CSS, JS, RapidAPI, Axios, and Remix Icons.",
+    tags: [
+      {
+        name: "React+Vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "RapidAPI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Axios",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Remix Icons",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: QuillBot,
+    source_code_link: "https://github.com/LakshyaRoy/QuillBot-Clone",
+    website_link: "https://quillbotclone.netlify.app/",
   },
   {
     name: "TV Show Booking Website",
@@ -228,26 +300,56 @@ const projects = [
     source_code_link: "https://github.com/LakshyaRoy/Omnifood--project",
     website_link: "https://omnifood-lakshya.netlify.app/",
   },
+  // {
+  //   name: "Quiz App",
+  //   description: `Users can access the admin panel by entering "Lakshya" as the first name and "Roy" as the last name. They can create quizzes, perform CRUD operations, and view scores in the result section.`,
+  //   tags: [
+  //     {
+  //       name: "HTML5",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS3",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: Quiz,
+  //   source_code_link: "https://github.com/LakshyaRoy/Quiz-App/tree/main",
+  //   website_link: "https://lakshyaroy.github.io/Quiz-App/",
+  // },
   {
-    name: "Quiz App",
-    description: `Users can access the admin panel by entering "Lakshya" as the first name and "Roy" as the last name. They can create quizzes, perform CRUD operations, and view scores in the result section.`,
+    name: "React Quiz Web App",
+    description: `This React quiz web app is a fun way to test your knowledge on various topics. It's built using React, CSS for styling, JavaScript, and a fake server to load questions.(Caution Start The Server First! Locally) `,
     tags: [
       {
-        name: "HTML5",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS3",
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "useReducer",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Server.js",
         color: "pink-text-gradient",
       },
     ],
-    image: Quiz,
-    source_code_link: "https://github.com/LakshyaRoy/Quiz-App/tree/main",
-    website_link: "https://lakshyaroy.github.io/Quiz-App/",
+    image: ReactQuiz,
+    source_code_link: "https://github.com/LakshyaRoy/The_React_Quiz",
+    website_link: "https://react-quiz-please-start-the-server.netlify.app/",
   },
   {
     name: "PUTATOE-One-Solution",
@@ -275,6 +377,43 @@ const projects = [
     source_code_link:
       "https://github.com/LakshyaRoy/PUTATOE-One-Solution/tree/main",
     website_link: "https://putatoe-one-solution.netlify.app/",
+  },
+  {
+    name: "Two-Good-Co Website",
+    description: `Two-Good-Co, inspired by an award-winning Awwwards website. The goal of this project was to recreate the design and functionality of the original website solely for educational purposes, with all credits to the original website's creators.`,
+    tags: [
+      {
+        name: "locomotive-scroll",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GSAP.js:",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "remixicon",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ScrollTrigger",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: TwoGood,
+    source_code_link: "https://github.com/LakshyaRoy/Two-Good-Co.-Clone-",
+    website_link: "https://toogoodco-awwwards-website-clone.netlify.app/",
   },
   {
     name: "Paper Portfolio",

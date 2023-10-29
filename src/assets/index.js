@@ -41,7 +41,15 @@ import NASA from "./nasaApi.png";
 import FreshCart from "./FreshCart.png";
 import Paper from "./paper.jpeg";
 import CryptBlaze from "./CryptBlaze.png";
+import Disney from "./Disney.png";
+import ReactQuiz from "./reactQuiz.png";
+import QuillBot from "./quillBot.png";
+import TwoGood from "./TwoGood.png";
 export {
+  QuillBot,
+  TwoGood,
+  ReactQuiz,
+  Disney,
   logo,
   backend,
   creator,
