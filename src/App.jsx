@@ -9,6 +9,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import CodeDay from "./components/codeDay";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <About />
         <Experience />
         <Works />
+        <CodeDay />
         <div className=" relative z-0">
           <Contact />
           <StarsCanvas />

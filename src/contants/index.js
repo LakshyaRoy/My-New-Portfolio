@@ -31,6 +31,7 @@ import Bootstrap from "../assets/tech/bootstrap.png";
 import Quencil from "../assets/company/quencil.png";
 import BWS from "../assets/company/BWS.png";
 import Spark from "../assets/company/spark.png";
+import LifeBonder from "../assets/company/lifeBonder.png";
 
 export const navLinks = [
   {
@@ -107,6 +108,17 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Web Developer",
+    company_name: "LifeBonder",
+    icon: LifeBonder,
+    iconBg: "#383E56",
+    date: "Dec 2023 to Current",
+    points: [
+      "Managed Lifebonder's site for optimal function and user experience. Oversaw updates, design, and performance, utilizing FileZilla FTP for precise version updates and efficient feature integration.",
+      "Guided website version control, ensured accurate updates, and secure deployments via FileZilla FTP. Collaborated for streamlined procedures, maintaining current tech and content.",
+    ],
+  },
   {
     title: "Frontend Developer",
     company_name: "Quencil Pvt Ltd",
