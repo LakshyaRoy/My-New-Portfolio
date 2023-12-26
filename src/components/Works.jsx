@@ -117,7 +117,7 @@ const Works = () => {
             className=" text-white text-[17px] leading-[30px] bg-gradient-to-r from-blue-900  to-indigo-950 rounded p-2 hover:from-blue-950 hover:to-indigo-900"
             onClick={() => {
               window.open(
-                "https://drive.google.com/uc?export=download&id=16idbkKfIjgMYVgU2F-mQWN1Bed2TPsm2",
+                "https://drive.google.com/uc?export=download&id=1_-aWiiTj17HK47zKzBdL7hCHfy4wUp5F",
                 "_blank"
               );
             }}
